@@ -17,13 +17,13 @@
 # 支持配置多个友链页面并指定不同主题策略，每个用{}分隔，它们会被同时爬取，数据保存在一起。***至少配置一个***
 LINK = [
     {
-        "link": "https://zfe.space/link/",  # 友链页地址1，修改为你的友链页地址
+        "link": "https://taya163.com/link/",  # 友链页地址1，修改为你的友链页地址
         "theme": "butterfly"
     },
-    #     {
-    #     "link": "https://noionion.top/link/",  # 友链页地址2
-    #     "theme": "butterfly",  # 友链页的获取策略
-    # },
+        {
+        "link": "https://zfe.space/link/",  # 友链页地址2
+        "theme": "butterfly",  # 友链页的获取策略
+    },
     #     {
     #     "link": "https://immmmm.com/about/",  # 友链页地址3
     #     "theme": "common",  # 友链页的获取策略
@@ -86,7 +86,7 @@ BLOCK_SITE = [
 HTTP_PROXY = False
 
 # 过期文章清除（天）
-OUTDATE_CLEAN = 60
+OUTDATE_CLEAN = 100
 
 # 存储方式，可选项：leancloud，mysql，sqlite，mongodb；默认为leancloud
 DATABASE = "leancloud"
