@@ -20,10 +20,10 @@ LINK = [
         "link": "https://hexo.taya163.com/link/",  # 友链页地址1，修改为你的友链页地址
         "theme": "butterfly"
     },
-#         {
-#         "link": "https://zfe.space/link/",  # 友链页地址2
-#         "theme": "butterfly",  # 友链页的获取策略
-#     },
+    {
+        "link": "https://zfe.space/link/",  # 友链页地址2
+        "theme": "butterfly",  # 友链页的获取策略
+    },
     #     {
     #     "link": "https://immmmm.com/about/",  # 友链页地址3
     #     "theme": "common",  # 友链页的获取策略
